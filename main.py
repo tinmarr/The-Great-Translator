@@ -17,6 +17,7 @@ while True:
         for j in range(len(k)):
           if k[j] in vowels:
             v.append(j)
+            break
         k = k[:v[i]]
         p.append(k)
     l = np.array(p)
